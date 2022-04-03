@@ -1,9 +1,18 @@
 import React from 'react';
+import useReview from '../hooks/useReview';
+import ReviewCard from './ReviewCard';
 
 const Reviews = () => {
+          const [reviews , setReviews] = useReview();
+
           return (
                     <div>
-                              <h1>Reviews</h1>
+                          
+                              <div className='grid md:grid-cols-3 md:gap-20 md:p-24 lg:p-44 '>
+                                        {
+                                             reviews.map(review => <ReviewCard review={review} key={review.id} ></ReviewCard> )     
+                                        }
+                              </div>
                     </div>
           );
 };

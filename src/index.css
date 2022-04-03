@@ -5,3 +5,15 @@
 body{
           font-family: 'Changa', sans-serif;   
 }
+nav a{
+          margin-left: 30px;
+          font-size: 20px;
+          font-weight: bold;
+          padding: 5px 15px;
+          
+}
+nav a:focus{
+          color: blue;
+          background-color: aliceblue ;
+          padding: 5px 15px;
+}
