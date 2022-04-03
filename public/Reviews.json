@@ -3,6 +3,7 @@
                    "id" : 1 ,
                     "name" : "Arif Khan",
                     "image" : "https://randomuser.me/api/portraits/men/30.jpg",
+                    "ratings" : 4.5 ,
                     "text" :"Good Bike For Every Bikers. I am very Happy for Buy It "
 
           },
@@ -10,35 +11,40 @@
                    "id" : 2 ,
                     "name" : "Bijoy Sikdar",
                     "image" : "https://randomuser.me/api/portraits/men/1.jpg",
-                    "text" :"Good Bike For Every Bikers. I am very Happy for Buy It  "
+                    "ratings" : 4 ,
+                    "text" :"বেশ ভালো একটি বাইক । কিনব কিনব করে কিনা হয়নি । কিছুদিন আগে কিনেই ফেললাম । অসাধারন একটি বাইক । সব দিক দিয়ে পারফেক্ট  "
 
           },
           {
                    "id" : 3 ,
                     "name" : "Mir Sikdar Raj",
                     "image" : "https://randomuser.me/api/portraits/men/89.jpg",
-                    "text" :"Good Bike For Every Bikers. I am very Happy for Buy It  "
+                    "ratings" : 3.5 ,
+                    "text" :"এক কথায় কম দামের মধ্যে সেরা একটি বাইক । দামে কম মানে ভালো। আমি সত্যিই লাভবান হয়েছি বাইকটি কিনে "
 
           },
           {
                    "id" : 4 ,
                     "name" : "Md Kawsar Miya",
                     "image" : "https://randomuser.me/api/portraits/men/45.jpg",
-                    "text" :"Good Bike For Every Bikers. I am very Happy for Buy It  "
+                    "ratings" : 5 ,
+                    "text" :"Awesome Bike Ever seen . In 2021 i bought this bike . Really Amazing "
 
           },
           {
                    "id" : 5 ,
                     "name" : "Mr Hero Alom",
-                    "image" : "https://randomuser.me/api/portraits/men/69.jpg",
-                    "text" :"Good Bike For Every Bikers. I am very Happy for Buy It  "
+                    "image" : "https://pbs.twimg.com/profile_images/778866687244275712/H8KpyaSO_400x400.jpg",
+                    "ratings" : 4 ,
+                    "text" :"Ami potome onno ekti bike nite ceyecilam kintu amar vai amake boloo je ei bike ti nite . tarpor ami ei bike tikinlam . ekon eta bes valoi lagtese use korte.  "
 
           },
           {
                    "id" : 6 ,
                     "name" : "Mahbub Miya",
                     "image" : "https://randomuser.me/api/portraits/men/2.jpg",
-                    "text" :"Good Bike For Every Bikers. I am very Happy for Buy It  "
+                    "ratings" : 2 ,
+                    "text" :"Cool Bike . Just Owsome  "
 
           }
 ]

@@ -7,23 +7,23 @@ const Home = () => {
        const threeReview = reviews.slice(0,3)
           return (
                     <div>
-                           <div className="headersection flex w-full px-10 py-10">
-                                     <div className="text w-2/4 grid items-center text-left ">
+                           <div className="headersection md:flex w-full md:px-40 py-10">
+                                     <div className="text md:w-2/4 grid items-center text-left ">
                                                <div>
-                                               <h1 className="text-5xl my-2 text-red-500">
+                                               <h1 className="text-3xl md:text-5xl my-2 text-red-500">
                                                THE FIRST PREMIUM LIGHTWEIGHT E-MOTORBIKE
                                                </h1>
-                                               <p className="text-2xl">NOVUS is a handcrafted-limited series full carbon fiber Motorbike.
+                                               <p className="text-xl md:text-2xl">NOVUS is a handcrafted-limited series full carbon fiber Motorbike.
 NOVUS                                                                 is more than a Motorcycle. It is a piece of Art on Wheels </p>
                                                </div>
                                      </div>
-                                     <div className="image w-2/4 flex justify-center content-center">
+                                     <div className="image md:w-2/4 flex justify-center content-center">
                                                <img className='w-3/4' src="https://novusbike.com/files/bilder/startseite/novus-seitlich-rot-cf.png" alt="" />
                                      </div>
 
                            </div>
-                           <div className="reviews p-10"> 
-                                          <h1 className="text-4xl font-bold mb-3">Biker Reviews</h1>
+                           <div className="reviews p-10 md:px-40"> 
+                                          <h1 className="text-2xl md:text-3xl font-bold mb-6 ">Biker Reviews</h1>
                                           <div className='grid md:grid-cols-3 gap-10' >
                                           {
                                              threeReview.map(review => <ReviewCard review={review} key={review.id} ></ReviewCard> )     
