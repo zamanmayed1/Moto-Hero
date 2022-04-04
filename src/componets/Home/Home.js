@@ -9,12 +9,17 @@ const Home = () => {
                     <div>
                            <div className="headersection md:flex w-full md:px-40 py-10">
                                      <div className="text md:w-2/4 grid items-center text-left ">
-                                               <div>
+                                               <div className='px-3'>
                                                <h1 className="text-3xl md:text-5xl my-2 text-red-500">
                                                THE FIRST PREMIUM LIGHTWEIGHT E-MOTORBIKE
                                                </h1>
                                                <p className="text-xl md:text-2xl">NOVUS is a handcrafted-limited series full carbon fiber Motorbike.
-NOVUS                                                                 is more than a Motorcycle. It is a piece of Art on Wheels </p>
+                                                  NOVUS is more than a Motorcycle. It is a piece of Art on Wheels 
+                                               </p>
+                                               <button className='px-4 mt-8 py-3 bg-red-500 text-white font-bold'>
+                                               <Link to={'/blog'}>Read More</Link>
+                                               </button>
+                                          
                                                </div>
                                      </div>
                                      <div className="image md:w-2/4 flex justify-center content-center">
