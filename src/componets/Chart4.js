@@ -7,15 +7,11 @@ import {
   CartesianGrid,
   Tooltip
 } from "recharts";
+import useChartsData from "./hooks/useChartsData";
 
 
 export default function Chart4() {
-          const [data ,setData] =useState([])
-          useEffect(()=>{
-                    fetch('Data.json')
-                    .then(res => res.json())
-                    .then(data => setData(data))
-          },[])
+          const [data ,setData] =useChartsData([])
   return (
     <AreaChart
       width={600}

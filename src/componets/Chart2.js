@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   ComposedChart,
   Line,
@@ -9,16 +9,13 @@ import {
   Tooltip,
   Legend
 } from "recharts";
+import useChartsData from "./hooks/useChartsData";
 
 
 
 export default function Chart2() {
-          const [data ,setData] =useState([])
-          useEffect(()=>{
-                    fetch('Data.json')
-                    .then(res => res.json())
-                    .then(data => setData(data))
-          },[])
+          const [data ,setData] =useChartsData([])
+         
   return (
     <ComposedChart
     width={500}

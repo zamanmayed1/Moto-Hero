@@ -1,15 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Radar, RadarChart, PolarGrid, Legend, PolarAngleAxis, PolarRadiusAxis, Tooltip } from 'recharts';
+import useChartsData from "./hooks/useChartsData";
 
 
 
 export default function Chart3() {
-          const [data ,setData] =useState([])
-          useEffect(()=>{
-                    fetch('Data.json')
-                    .then(res => res.json())
-                    .then(data => setData(data))
-          },[])
+          const [data ,setData] =useChartsData([])
+          
   return (
     <RadarChart cx={300} cy={250} outerRadius={150} width={500} height={500} data={data}>
       <PolarGrid />
